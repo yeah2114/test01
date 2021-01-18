@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pando Games</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/defult.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+
+    <!-- swiper js -->
+    <script src="js/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+
+        <!-- header -->
+        <div id="header">
+            <div class="center">
+                <h1><a href="#"><img src="img/logo.png" alt="logo"></a></h1>
+
+                <nav id="gnb">
+                    <ul>
+                        <li><a href="htm/index_all.html">ALL</a></li>
+                        <li><a href="htm/index_action.html">ACTION</a></li>
+                        <li><a href="htm/index_board.html">BOARD</a></li>
+                        <li><a href="htm/index_acade.html">ARCADE</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- slide -->
+        <div id="slide">
+            <div class="center">
+                <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
+                    <div class="swiper-wrapper" id="swiper-wrapper-88764795d8a2c8db" aria-live="off"
+                        style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+                        <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 3"><img
+                                src="img/slide01.png" alt="slide"></div>
+                        <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 3"><img
+                                src="img/slide02.png" alt="slide"></div>
+                        <div class="swiper-slide" role="group" aria-label="3 / 3"><img src="img/slide03.png" alt="slide">
+                        </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                        aria-controls="swiper-wrapper-88764795d8a2c8db" aria-disabled="false"></div>
+                    <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button"
+                        aria-label="Previous slide" aria-controls="swiper-wrapper-88764795d8a2c8db" aria-disabled="true">
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            </script>
+            </div>
+        </div>
+
+        <!-- contents -->
+        <div id="contents">
+            <div class="center">
+                <section class="all">
+                    <h2>ALL</h2>
+                    <a href="htm/index_all.html">more ></a>
+                    <div class="img_box">
+                        <a href="game/game24/"><img src="img/all_thumb01.png" alt="all_img">Neon Bricks</a>
+                        <a href="game/game25/"><img src="img/all_thumb02.png" alt="all_img">Soccer Pinball3</a>
+                        <a href="game/game27/"><img src="img/all_thumb03.png" alt="all_img">2048</a>
+                        <a href="game/game29/"><img src="img/all_thumb04.png" alt="all_img">Trail</a>
+                        <a href="game/game30/"><img src="img/all_thumb05.png" alt="all_img">Super Cube</a>
+                    </div>
+                </section>
+
+                <section class="action">
+                    <h2>ACTION</h2>
+                    <a href="htm/index_action.html">more ></a>
+                    <div class="img_box">
+                        <a href="game/2048/"><img src="img/action_thumb01.png" alt="all_img">Super Frog</a>
+                        <a href="game/game25/"><img src="img/action_thumb02.png" alt="all_img">Jelly in portal</a>
+                        <a href="game/game27/"><img src="img/action_thumb03.png" alt="all_img">Puzzle for kids</a>
+                        <a href="game/game30/"><img src="img/action_thumb04.png" alt="all_img">Gold Coast</a>
+                        <a href="game/game31/"><img src="img/action_thumb05.png" alt="all_img">Grand Commander</a>
+                    </div>
+                </section>
+
+                <section class="board">
+                    <h2>BOARD</h2>
+                    <a href="htm/index_board.html">more ></a>
+                    <div class="img_box">
+                        <a href="game/game13/"><img src="img/board_thumb01.png" alt="all_img">Tower Blocks</a>
+                        <a href="game/game15/"><img src="img/board_thumb02.png" alt="all_img">Slide</a>
+                        <a href="game/game19/"><img src="img/board_thumb03.png" alt="all_img">Pool 8</a>
+                        <a href="game/game17/"><img src="img/board_thumb04.png" alt="all_img">Connect Merge</a>
+                        <a href="game/game18/"><img src="img/board_thumb05.png" alt="all_img">Match 4</a>
+                    </div>
+                </section>
+
+                <section class="arcade">
+                    <h2>ARCADE</h2>
+                    <a href="htm/index_acade.html">more ></a>
+                    <div class="img_box">
+                        <a href="game/a18/"><img src="img/acade_thumb01.png" alt="all_img">Shoot Robbers</a>
+                        <a href="game/a19/"><img src="img/acade_thumb02.png" alt="all_img">Zombie Shooter</a>
+                        <a href="game/b1/"><img src="img/acade_thumb03.png" alt="all_img">Mad Shark</a>
+                        <a href="game/a22/"><img src="img/acade_thumb04.png" alt="all_img">Christmas Match</a>
+                        <a href="game/a25/"><img src="img/acade_thumb05.png" alt="all_img">Great Air Battles</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div id="footer">
+            <div class="center">
+                <address>
+                    Harju maakond, Tallinn, Kesklinna linnaosa, Narva mnt 5
+                </address>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

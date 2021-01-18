@@ -1,0 +1,27 @@
+#slide{ height: 900px; }
+#slide .center{ height: 900px; }
+#slide .center .swiper-container .swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+#contents .center{ background-color: #fff; }
+#contents .center section{ height: 450px; padding: 50px 275px; position: relative; box-sizing: border-box; }
+#contents .center section:nth-child(2n-1){ background-color: rgb(238, 238, 238); }
+#contents .center section h2{ position: absolute; }
+#contents .center section>a{ position: absolute; right: 275px; color: #000; }
+#contents .center section .img_box{ width: 1370px; height: 300px; position: absolute; bottom: 50px; }
+#contents .center section .img_box a{ width: 250px; height: 300px; float: left; color: #000; line-height: 25px; text-align: center; }
+#contents .center section .img_box a:not(:last-child){ margin-right: 30px; }
+#contents .center section .img_box a img{ border-radius: 15px; }

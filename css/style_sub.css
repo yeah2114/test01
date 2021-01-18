@@ -1,0 +1,9 @@
+#contents .center{ background-color: rgb(238, 238, 238); }
+#contents .center h2{ position: absolute; padding: 60px 0 50px; left: 50%; transform: translateX(-50%); font-size: 30px; text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3); }
+#contents .center .game_box{ width: 1920px; height: 1350px; padding: 140px 275px 0; box-sizing: border-box; }
+#contents .center .game_box article{ width: 320px; height: 350px; background-color: #fff; border-radius: 15px; float: left; margin: 11px; }
+#contents .center .game_box article a{ display: block; width: 300px; height: 340px; text-align: center; font-size: 18px; color: #000; margin: 10px 10px; line-height: 25px; }
+#contents .center .game_box article a img{ border-radius: 15px; }
+
+
+#footer{ clear: both; }
